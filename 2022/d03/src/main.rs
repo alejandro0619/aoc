@@ -11,7 +11,6 @@ fn part_one(input: String) -> () {
     })
     .collect::<HashMap<char, usize>>();
 
-    #[allow(dead_code)]
     #[derive(Debug)]
     struct Compartments {
         first: String,
