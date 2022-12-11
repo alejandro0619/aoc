@@ -7,7 +7,7 @@ fn _part_one() -> i32 {
     let lines = input.lines();
 
     // we set their discriminant
-    #[derive(PartialEq)]
+    #[derive(PartialEq, Clone, Copy)]
     enum Shapes {
         Rock = 1,
         Paper = 2,
